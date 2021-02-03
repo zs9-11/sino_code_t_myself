@@ -1,0 +1,2 @@
+/home/sinognss/vendor/ql-linux-sdk/threadx/tools/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-ar -rc ../../Output/lib/EC100Y/libntripclient-gcc-non.lib  CMakeFiles/ntripclient.dir/libapi.c.o CMakeFiles/ntripclient.dir/libsockets.c.o
+/home/sinognss/vendor/ql-linux-sdk/threadx/tools/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-ranlib ../../Output/lib/EC100Y/libntripclient-gcc-non.lib

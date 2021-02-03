@@ -1,0 +1,41 @@
+cmake_minimum_required (VERSION 2.8.0)
+
+set(LIBNAME util-N)
+
+if(EC100Y_PLATFORM)
+include_directories(${GNSS_SDK_INCLUDE})
+endif()
+
+set(SRC_DIR "${PROJECT_SOURCE_DIR}/util-N")
+
+set(DIR_SRCS "${SRC_DIR}/logger.h")
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/logger.cpp")
+#set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/logger.c")
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/RingBuffer.h")
+#set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/RingBuffer.cpp")
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/RingBuffer.c")
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/ini.h")
+#set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/ini.cpp")
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/ini.c")
+if(LINK_SERIAL_PORT)
+#include_directories($ENV{HOME}/vendor/sa415m/oelinuxRtk/CSerialPort-master/src)
+include_directories(${PROJECT_SOURCE_DIR}/CSerialPort-master/src)
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/serialport.h")
+set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/serialport.cpp")
+#set(DIR_SRCS "${DIR_SRCS};${SRC_DIR}/serialport.c")
+endif()
+
+link_directories(${LIBRARY_OUTPUT_PATH})
+
+#aux_source_directory(. SRC_DIR)
+
+#add_library(${LIBNAME} STATIC ${SRC_DIR})
+add_library(${LIBNAME} STATIC ${DIR_SRCS})
+#if(LINK_SERIAL_PORT)
+    #target_link_libraries(${LIBNAME} cserialport-linux-gnueabi) 
+    #target_link_libraries(${LIBNAME} cserialport-linux-gnueabi pthread) 
+if(EC100Y_PLATFORM)
+target_link_libraries(${LIBNAME} ${THIRD_PARTY_LIBS}) 
+else()
+target_link_libraries(${LIBNAME}) 
+endif()

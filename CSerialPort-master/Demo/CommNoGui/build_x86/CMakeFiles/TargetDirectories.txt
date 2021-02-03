@@ -1,0 +1,3 @@
+/home/sinognss/vendor/oelinuxRtk/CSerialPort-master/Demo/CommNoGui/build_x86/CMakeFiles/rebuild_cache.dir
+/home/sinognss/vendor/oelinuxRtk/CSerialPort-master/Demo/CommNoGui/build_x86/CMakeFiles/edit_cache.dir
+/home/sinognss/vendor/oelinuxRtk/CSerialPort-master/Demo/CommNoGui/build_x86/CMakeFiles/CSerialPortDemoNoGui.dir

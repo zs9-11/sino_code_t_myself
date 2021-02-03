@@ -1,0 +1,32 @@
+The target system is: Linux -  - ARM
+The host system is: Linux - 4.15.0-45-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/sinognss/vendor/ql-linux-sdk/threadx/tools/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-g++ 
+Build flags: -c;-fPIC;-MMD;-mlong-calls;;-mcpu=cortex-r4;-mfloat-abi=soft;;;-mlittle-endian;-mthumb;-mthumb-interwork;;-Wall;-ffunction-sections;-fdata-sections;-fno-builtin-printf;-fno-builtin-time;-fno-builtin-gmtime;-fno-builtin-gettimeofday;-D__OCPU_COMPILER_GCC__;-D_WANT_USE_LONG_TIME_T;-std=c++11;;-g;-Os;--include=/home/sinognss/vendor/ql-linux-sdk/threadx/config/profile/autoconf.h
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.d"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/sinognss/develop/oelinuxRtk/build-ec100y/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/sinognss/vendor/ql-linux-sdk/threadx/tools/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc 
+Build flags: -c;-fPIC;-MMD;-mlong-calls;-mcpu=cortex-r4;-mfloat-abi=soft;-mlittle-endian;-mthumb;-mthumb-interwork;;-Wall;-ffunction-sections;-fdata-sections;-fno-builtin-printf;-fno-builtin-time;-fno-builtin-gmtime;-fno-builtin-gettimeofday;-D__OCPU_COMPILER_GCC__;-D_WANT_USE_LONG_TIME_T;-std=c99;-g;-Os;--include=/home/sinognss/vendor/ql-linux-sdk/threadx/config/profile/autoconf.h
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.d"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/sinognss/develop/oelinuxRtk/build-ec100y/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.o"
+

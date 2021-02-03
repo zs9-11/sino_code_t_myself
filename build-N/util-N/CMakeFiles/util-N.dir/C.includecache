@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sinognss/develop/oelinuxRtk/util/RingBuffer.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+RingBuffer.h
+/home/sinognss/develop/oelinuxRtk/util/RingBuffer.h
+
+/home/sinognss/develop/oelinuxRtk/util/RingBuffer.h
+stdlib.h
+-
+
+/home/sinognss/develop/oelinuxRtk/util/ini.c
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+ini.h
+/home/sinognss/develop/oelinuxRtk/util/ini.h
+stdlib.h
+-
+
+/home/sinognss/develop/oelinuxRtk/util/ini.h
+stdio.h
+-
+

@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar -rcs --target=elf32-littlearm ../../Output/lib/qcomARMv7/libPreRtk-N-linux-gnueabi.a  CMakeFiles/PreRtk-N.dir/QRtkImpl.cpp.o CMakeFiles/PreRtk-N.dir/RawFormat.cpp.o CMakeFiles/PreRtk-N.dir/RtcmDecode.cpp.o CMakeFiles/PreRtk-N.dir/libRtkAPI.cpp.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib ../../Output/lib/qcomARMv7/libPreRtk-N-linux-gnueabi.a

@@ -1,0 +1,2 @@
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar -rcs --target=elf32-littlearm ../../Output/lib/qcomARMv7/libutil-N-linux-gnueabi.a  CMakeFiles/util-N.dir/logger.cpp.o CMakeFiles/util-N.dir/RingBuffer.c.o CMakeFiles/util-N.dir/ini.c.o
+/usr/local/oecore-x86_64/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib ../../Output/lib/qcomARMv7/libutil-N-linux-gnueabi.a

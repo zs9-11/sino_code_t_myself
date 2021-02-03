@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc ../lib/didi/libntripclient-gcc-non.lib  CMakeFiles/ntripclient.dir/libapi.c.o CMakeFiles/ntripclient.dir/libsockets.c.o
+/usr/bin/arm-none-eabi-ranlib ../lib/didi/libntripclient-gcc-non.lib

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../qcom_sa415m/EnginePluginAPI/EnginePluginAPI.h
+stdint.h
+-
+time.h
+-
+
+/home/sinognss/develop/oelinuxRtk/qcom_sa415m/PrecisePosEngineLibTest/main.cpp
+thread
+-
+chrono
+-
+EnginePluginAPI.h
+/home/sinognss/develop/oelinuxRtk/qcom_sa415m/PrecisePosEngineLibTest/EnginePluginAPI.h
+

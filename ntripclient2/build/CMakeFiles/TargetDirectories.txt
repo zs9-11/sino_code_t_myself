@@ -1,0 +1,3 @@
+/home/sinognss/vendor/oelinuxRtk/ntripclient2/build/CMakeFiles/edit_cache.dir
+/home/sinognss/vendor/oelinuxRtk/ntripclient2/build/CMakeFiles/rebuild_cache.dir
+/home/sinognss/vendor/oelinuxRtk/ntripclient2/build/CMakeFiles/ntripclient.dir

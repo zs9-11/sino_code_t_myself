@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sinognss/develop/oelinuxRtk/ntripclient/libapi.c
+libapi.h
+/home/sinognss/develop/oelinuxRtk/ntripclient/libapi.h
+libsockets.h
+/home/sinognss/develop/oelinuxRtk/ntripclient/libsockets.h
+stdio.h
+-
+
+/home/sinognss/develop/oelinuxRtk/ntripclient/libapi.h
+
+/home/sinognss/develop/oelinuxRtk/ntripclient/libsockets.h
+libapi.h
+/home/sinognss/develop/oelinuxRtk/ntripclient/libapi.h
+stdint.h
+-
+

@@ -1,0 +1,2 @@
+/home/sinognss/vendor/A70B_OPEN_LINUX_Q220_SDK_V3.33/tool/neoway-arm-oe-linux/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ar -rcs --target=elf32-littlearm ../../Output/lib/qcom_9628/libutil-N-linux-gnueabi.a  CMakeFiles/util-N.dir/logger.cpp.o CMakeFiles/util-N.dir/RingBuffer.c.o CMakeFiles/util-N.dir/ini.c.o
+/home/sinognss/vendor/A70B_OPEN_LINUX_Q220_SDK_V3.33/tool/neoway-arm-oe-linux/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi/arm-oe-linux-gnueabi-ranlib ../../Output/lib/qcom_9628/libutil-N-linux-gnueabi.a
